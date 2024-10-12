@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bf9829f9.css",
+    "main.js": "/static/js/main.2ca27cc2.js",
+    "static/media/goals.png": "/static/media/goals.7b9731efd02f13500f9a.png",
+    "static/media/sdgs.png": "/static/media/sdgs.c3ed8d4d6126a052bc1e.png",
+    "static/media/mis.png": "/static/media/mis.0e36cee7061799bc3afd.png",
+    "static/media/vis.png": "/static/media/vis.743e9c906be574358a46.png",
+    "static/media/seal.png": "/static/media/seal.70b9f3d06a445c50ae0c.png",
+    "static/media/remixicon.svg?t=1590207869815": "/static/media/remixicon.9cedd2150922ead84869.svg",
+    "static/media/hero1.png": "/static/media/hero1.3803a861bb054db369ed.png",
+    "static/media/info.png": "/static/media/info.a5772b252800b1c898a3.png",
+    "static/media/remixicon.eot?t=1590207869815": "/static/media/remixicon.5cb99e6cba5a4619063f.eot",
+    "static/media/remixicon.ttf?t=1590207869815": "/static/media/remixicon.f2616f597cf98f38d234.ttf",
+    "static/media/card1.png": "/static/media/card1.fdb988de2cee68a91432.png",
+    "static/media/remixicon.woff?t=1590207869815": "/static/media/remixicon.8d09fa11700ed63cf96e.woff",
+    "static/media/card3.png": "/static/media/card3.66a87f991a1508b2dd04.png",
+    "static/media/hel.png": "/static/media/hel.f4e1a47ec131e1775837.png",
+    "static/media/card2.png": "/static/media/card2.7053cb6e0150003147bc.png",
+    "static/media/Gilroy-Medium.ttf": "/static/media/Gilroy-Medium.1b4da6582f83f45ea039.ttf",
+    "static/media/remixicon.woff2?t=1590207869815": "/static/media/remixicon.90668f6f9b3c2c18a090.woff2",
+    "static/media/img1.png": "/static/media/img1.c478183c180088f11eaf.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.bf9829f9.css.map": "/static/css/main.bf9829f9.css.map",
+    "main.2ca27cc2.js.map": "/static/js/main.2ca27cc2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf9829f9.css",
+    "static/js/main.2ca27cc2.js"
+  ]
+}
