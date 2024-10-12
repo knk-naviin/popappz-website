@@ -1,12 +1,10 @@
-import { useEffect } from "react";
 import Layout from "./components/Layout/Layout";
-import Backimg from "../src/assest/backimg.png";
+import CarouselComponent from "./components/UI/Carosel";
+import Carosel from "./components/UI/Carosel";
+import Home from "./pages/Home";
 
 function App() {
-  useEffect(() => {
-    document.getElementById("body").style.backgroundImage = `url('${Backimg}')`;
-  });
-  return <div id="body" style={{}}></div>;
+  return <Home />;
 }
 
 export default App;

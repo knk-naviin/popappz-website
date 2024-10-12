@@ -1,0 +1,54 @@
+.ourgoals {
+  margin-top: 10px;
+  transform: translateY(30px);
+}
+.service {
+  margin-top: 80px;
+}
+.seal {
+  margin-top: 300px;
+  transform: translateY(100px);
+  transform: translateX(270px);
+}
+.info {
+  margin-top: 330px;
+  transform: translateY(100px);
+  transform: translateX(200px);
+}
+.eyt {
+  /* margin-top: 50px; */
+  margin-left: 550px;
+
+  transform: translateY(300px);
+}
+.abt {
+  /* margin: 50px; */
+  margin-bottom: 10px;
+  margin-left: 650px;
+}
+.goal {
+  margin-top: 20px;
+}
+.our-goal {
+  margin-left: 650px;
+  margin-bottom: -80px;
+  margin-top: 50px;
+}
+.about {
+  font-style: normal;
+  font-weight: 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-decoration: underline;
+  text-decoration-color: rgb(255 128 128 / 50%);
+  margin-left: 32px;
+}
+.img-hel {
+  transform: translateX(22px);
+}
+
+.box {
+  width: 200px;
+  /* margin: 10px; */
+  height: 508px;
+  border: 1px solid red;
+}

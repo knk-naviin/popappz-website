@@ -1,0 +1,46 @@
+.txt {
+  width: 304px;
+  height: 157px;
+  background: red;
+}
+.carousel {
+  width: 304px;
+}
+/* carousel.css */
+.carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-item img {
+  height: 157px;
+  width: 304px;
+  object-fit: cover;
+  margin: 0 10px;
+}
+
+.carousel-caption {
+  height: 157px;
+  width: 304px;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 10px;
+}
+
+.carousel-container {
+  width: 970px;
+  height: 304px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-inner {
+  display: flex;
+}

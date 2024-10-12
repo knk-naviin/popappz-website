@@ -1,0 +1,111 @@
+/* Hero slider styles */
+.slider__item {
+  max-width: 100%;
+  height: 700px;
+}
+
+.pre-back {
+  background: linear-gradient(
+    to right,
+    rgb(23, 23, 28, 0.8) 30%,
+    rgb(217, 217, 217, 0)
+  );
+
+  position: relative;
+  z-index: 10;
+
+  text-align: center;
+
+  width: auto;
+  /* transform: translateX(10px); */
+  height: 700px;
+}
+
+.slider__item-01 {
+  background: url("../assets/hero1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pt {
+  color: #fbfbfb;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 64px;
+  margin-left: 70px;
+}
+
+.pt1 {
+  margin-top: -40px;
+}
+
+.hero__slider {
+  overflow: hidden;
+  height: fit-content;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 5;
+}
+.container1 {
+  width: 970px;
+  height: 304px;
+  margin-left: 525px;
+  margin-top: -225px;
+  /* border: 2px solid red; */
+}
+.slider__content {
+  padding-top: 150px;
+}
+
+.slider__content h1 {
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
+.btn {
+  /* margin-left: 78px; */
+  height: 50px;
+  width: 150px;
+  padding-left: 20px;
+  background-color: #a83e8b;
+  color: white;
+  text-align: start;
+
+  font-style: italic;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+
+  margin-left: 100px;
+}
+
+.btn:hover {
+  background-color: #003b94;
+}
+
+/* Media queries */
+@media only screen and (max-width: 992px) {
+  .slider__item {
+    height: 530px;
+  }
+
+  .slider__content {
+    padding-top: 100px;
+  }
+
+  .slider__content h1 {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .slider__item {
+    height: 450px;
+  }
+
+  .slider__content h1 {
+    font-size: 1.5rem;
+  }
+}

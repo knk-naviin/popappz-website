@@ -1,13 +1,100 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* ======= base style ====== */
+
+/* ========= pre-define css ========= */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000000;
+  font-weight: 600;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 0;
+
+  font-weight: lighter;
+}
+p {
+  font-size: larger;
+}
+h3,
+h4 {
+  font-size: 1.6rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h5,
+h6 {
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+a:hover {
+  color: unset;
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+}
+
+.section__title {
+  color: #939393;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.section__subtitle {
+  color: #f9a826;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.section__description {
+  color: #7c8a97;
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+section {
+  padding: 0px 0px;
+}
+
+.btn {
+  background: #a83e8b;
+  color: white;
+  border: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: normal;
+  display: none;
+  outline: none;
+  border-radius: 5px;
+  /* padding: 13px 33px;  */
+  transition: 0.3s;
+}
+.btn:hover {
+  background: #a83e8c85;
+
+  color: aliceblue;
+}
+.btn.test-completed::after {
+}
+.btn.btn.test-completed:hover::after {
+  top: -20px;
+}
+@media only screen and (max-width: 768px) {
+  section {
+    padding: 30px 0px;
+  }
+
+  .section__title {
+    font-size: 1.6rem;
+  }
+
+  .section__subtitle {
+    font-size: 1.1rem;
+  }
 }

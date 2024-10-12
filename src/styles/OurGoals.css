@@ -1,0 +1,45 @@
+.imgsrc {
+  /* overflow: hidden; */
+  height: max-content;
+  position: absolute;
+
+  width: 100%;
+}
+.container {
+  z-index: 5;
+}
+
+.mission {
+  margin-top: 240px;
+  /* transform: translateX(35px); */
+  transform: translateX(185px);
+}
+.mission:hover {
+  padding: 12px;
+}
+.vision {
+  margin-top: 240px;
+  transform: translateX(185px);
+}
+.vision:hover {
+  padding: 12px;
+}
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 20px;
+
+  margin-bottom: 200px;
+  right: 20px;
+
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.sdgs {
+  margin: 20px;
+  margin-left: 0px;
+  margin-top: 40px;
+  /* margin-right: 0px; */
+  /* transform: translateY(-60px); */
+  transform: translateX(35px);
+}
